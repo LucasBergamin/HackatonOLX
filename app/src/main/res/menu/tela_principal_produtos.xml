@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filtrar"
+        android:orderInCategory="100"
+        android:title="Personalização"
+        android:icon="@drawable/ic_baseline_settings_branco"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_pesquisar"
+        android:orderInCategory="100"
+        android:title="Pesquisa"
+        android:icon="@drawable/ic_baseline_search_branco"
+        app:showAsAction="ifRoom" />
+
+</menu>

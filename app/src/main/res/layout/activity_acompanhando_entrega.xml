@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="0dp"
+            android:layout_height="277dp"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.0"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="1.0"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Codigo do Rastreio:"
+            android:textColor="#000"
+            android:textStyle="bold"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView37"
+            map:layout_constraintStart_toStartOf="@+id/imageView37"
+            map:layout_constraintTop_toTopOf="@+id/imageView37"
+            map:layout_constraintVertical_bias="0.512" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="LO40569863554NI"
+            android:textColor="#0001FC"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toEndOf="@+id/imageView37"
+            map:layout_constraintStart_toEndOf="@+id/textView56"
+            map:layout_constraintTop_toTopOf="@+id/imageView37" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="0dp"
+            android:layout_height="202dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rastreio"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="1.0"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bolinha"
+            map:layout_constraintEnd_toStartOf="@+id/imageView8"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/map" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bolinha"
+            map:layout_constraintEnd_toStartOf="@+id/imageView11"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toEndOf="@+id/imageView4"
+            map:layout_constraintTop_toBottomOf="@+id/map" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bolinha"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toEndOf="@+id/imageView8"
+            map:layout_constraintTop_toBottomOf="@+id/map" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="24dp"
+            android:background="#8420a3"
+            map:layout_constraintEnd_toStartOf="@+id/imageView11"
+            map:layout_constraintHorizontal_bias="0.0"
+            map:layout_constraintStart_toEndOf="@+id/imageView4"
+            map:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_24"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            map:layout_constraintEnd_toEndOf="@+id/imageView4"
+            map:layout_constraintStart_toStartOf="@+id/imageView4"
+            map:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retirado"
+            android:textColor="#000"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toStartOf="@+id/textView13"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A caminho"
+            android:textColor="#000"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toStartOf="@+id/textView14"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toEndOf="@+id/textView12"
+            map:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entregue"
+            android:textColor="#000"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toEndOf="@+id/textView13"
+            map:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "78196546006",
+    "firebase_url": "https://olxpoll-83cf5.firebaseio.com",
+    "project_id": "olxpoll-83cf5",
+    "storage_bucket": "olxpoll-83cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78196546006:android:a195bd392324d8ff162c77",
+        "android_client_info": {
+          "package_name": "com.example.projetoolx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78196546006-nng9556jhn9mfn03rag421evvdoudcbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDenXmWOcye4_gRxyvIsq8OAUKJ8OXedPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78196546006-nng9556jhn9mfn03rag421evvdoudcbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

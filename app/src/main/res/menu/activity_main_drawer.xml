@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anuncios"
+            android:title="Anuncios" />
+        <item
+            android:id="@+id/nav_criarAnuncio"
+            android:title="Criar Anuncio" />
+        <item
+            android:id="@+id/nav_minhaConta"
+            android:title="Minha conta" />
+        <item
+            android:id="@+id/nav_suport"
+            android:title="Suporte" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_Duvidas"
+                android:title="Duvidas" />
+            <item
+                android:id="@+id/nav_DicasSeg"
+                android:title="Dicas de segurança" />
+            <item
+                android:id="@+id/nav_Termos"
+                android:title="Termos de uso" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_deslogar"
+                android:title="Deslogar" />
+        </menu>
+    </item>
+</menu>

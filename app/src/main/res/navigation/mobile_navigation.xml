@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_anuncios">
+
+    <fragment
+        android:id="@+id/nav_anuncios"
+        android:name="com.example.projetoolx.ui.Anuncio.AnunciosFragment"
+        android:label="Anúncios"
+        tools:layout="@layout/fragment_anuncios" />
+
+    <fragment
+        android:id="@+id/nav_criarAnuncio"
+        android:name="com.example.projetoolx.ui.CriarAnuncio.CriarAnunciosFragment"
+        android:label="Criar Anúncio"
+        tools:layout="@layout/fragment_criar_anuncios" />
+
+    <fragment
+        android:id="@+id/nav_minhaConta"
+        android:name="com.example.projetoolx.ui.MinhaConta.MinhaContaFragment"
+        android:label="Editar Conta"
+        tools:layout="@layout/fragment_minha_conta" />
+
+    <fragment
+        android:id="@+id/action_filtrar"
+        android:name="com.example.projetoolx.ui.FiltroDeBusca.FiltroPesquisarFragment"
+        android:label="Filtro de Busca"
+        tools:layout="@layout/fragment_filtro_pesquisar" />
+</navigation>

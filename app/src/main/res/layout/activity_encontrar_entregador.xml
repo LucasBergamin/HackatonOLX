@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="410dp"
+            android:layout_height="187dp"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="369dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/map" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="369dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_outline_place_azul"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            map:layout_constraintStart_toStartOf="@+id/imageView7"
+            map:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_outline_place_laranja"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            map:layout_constraintStart_toStartOf="@+id/imageView14"
+            map:layout_constraintTop_toTopOf="@+id/imageView14" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Rua Rua Izidoro Tonin, Campinas SP"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toEndOf="@+id/imageView7"
+            map:layout_constraintStart_toEndOf="@+id/imageView13"
+            map:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Condomínio Villagio Florença Valinhos SP"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toEndOf="@+id/imageView14"
+            map:layout_constraintStart_toEndOf="@+id/imageView15"
+            map:layout_constraintTop_toTopOf="@+id/imageView14" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="110dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toStartOf="@+id/imageView18"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="111dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toStartOf="@+id/imageView19"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toEndOf="@+id/imageView17"
+            map:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="107dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.5"
+            map:layout_constraintStart_toEndOf="@+id/imageView18"
+            map:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_directions_bike_24"
+            map:layout_constraintEnd_toEndOf="@+id/imageView17"
+            map:layout_constraintStart_toStartOf="@+id/imageView17"
+            map:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Bicicleta até 10km"
+            android:textColor="#000"
+            map:layout_constraintEnd_toEndOf="@+id/imageView17"
+            map:layout_constraintHorizontal_bias="0.574"
+            map:layout_constraintStart_toStartOf="@+id/imageView17"
+            map:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="R$ 15"
+            android:textColor="#47B275"
+            android:textStyle="bold"
+            map:layout_constraintEnd_toEndOf="@+id/imageView17"
+            map:layout_constraintStart_toStartOf="@+id/imageView17"
+            map:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_motorcycle_24"
+            map:layout_constraintEnd_toEndOf="@+id/imageView18"
+            map:layout_constraintStart_toStartOf="@+id/imageView18"
+            map:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Moto até 50Km"
+            android:textColor="#000"
+            map:layout_constraintEnd_toEndOf="@+id/imageView18"
+            map:layout_constraintStart_toStartOf="@+id/imageView18"
+            map:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="R$ 22"
+            android:textColor="#FF7D49"
+            map:layout_constraintEnd_toEndOf="@+id/imageView18"
+            map:layout_constraintStart_toStartOf="@+id/imageView18"
+            map:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_directions_car_24"
+            map:layout_constraintEnd_toEndOf="@+id/imageView19"
+            map:layout_constraintStart_toStartOf="@+id/imageView19"
+            map:layout_constraintTop_toTopOf="@+id/imageView19" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Carro até 50Km"
+            android:textColor="#000"
+            map:layout_constraintEnd_toEndOf="@+id/imageView19"
+            map:layout_constraintStart_toStartOf="@+id/imageView19"
+            map:layout_constraintTop_toBottomOf="@+id/imageView30" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="R$ 35"
+            android:textColor="#7356BF"
+            map:layout_constraintEnd_toEndOf="@+id/textView52"
+            map:layout_constraintStart_toStartOf="@+id/imageView19"
+            map:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="369dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.522"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_person_preto"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView31"
+            map:layout_constraintStart_toStartOf="@+id/imageView31"
+            map:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Danilo Nunes"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView31"
+            map:layout_constraintStart_toEndOf="@+id/imageView32"
+            map:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="140dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="12dp"
+            android:max="5"
+            android:progress="4"
+            map:layout_constraintEnd_toEndOf="@+id/imageView31"
+            map:layout_constraintHorizontal_bias="0.489"
+            map:layout_constraintStart_toEndOf="@+id/textView54"
+            map:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="198dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/quadrado_branco"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="119dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_azul"
+            android:drawableStart="@drawable/ic_baseline_call_branco"
+            android:padding="10dp"
+            android:text="Call"
+            android:textColor="#fff"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintHorizontal_bias="0.729"
+            map:layout_constraintStart_toEndOf="@+id/imageView33"
+            map:layout_constraintTop_toBottomOf="@+id/imageView31" />
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_laranja"
+            android:text="Confirmar solicitação de entrega"
+            android:textColor="#fff"
+            map:layout_constraintBottom_toBottomOf="parent"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/ic_baseline_directions_car_24"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView33"
+            map:layout_constraintStart_toStartOf="@+id/imageView33"
+            map:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMW - ETV523"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            map:layout_constraintBottom_toBottomOf="@+id/imageView33"
+            map:layout_constraintEnd_toEndOf="@+id/imageView33"
+            map:layout_constraintStart_toEndOf="@+id/imageView34"
+            map:layout_constraintTop_toTopOf="@+id/imageView33" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
