@@ -3,3 +3,5 @@ e outros recursos. nosso aplicativo visa trazer uma entrega por via dos próprio
 aplicativo de entregas e ver se tem alguma entrega para ser feito neste caminho caso houver, eu poderia pegar está encomenda e levar até o destino que ficará em meu caminho, 
 assim eu acabo me beneficiando por ganhar pontos de desconto, pontos de vantagens dentro do aplicativo e acaba gerando um clico de renda na carteira do OLX pay, e o comprador
 sai ganhando também por conta da rapidez da entrega.
+
+Link para APK: https://mega.nz/folder/3hUQzTDI#_5hHEoxYOA1_SUNPwY2rgQ
